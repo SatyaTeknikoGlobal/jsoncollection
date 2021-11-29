@@ -1,0 +1,1016 @@
+{
+	"info": {
+		"_postman_id": "66e3d65f-5c23-459c-ba99-dbcb426c4454",
+		"name": "fansstudio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "send_otp_mobile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\":\"satyasahoo.abc@gmail.com\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/send_otp",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"send_otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check_version",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/check_version",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"check_version"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"tek@gmail.com\",\"otp\":\"1234\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/login",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"tekniko\",\"mobile\":\"1234567895\",\"email\":\"tek@gmail.com\",\"password\":\"123456\",\"confirm_password\":\"123456\",\"gender\":\"male\",\"referral_code\":\"\",\"dob\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/signup",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login_password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"1234567895\",\"password\":\"123456\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/login_password",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"login_password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "verify_otp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mobile\":\"6370371406\",\"otp\":\"1234\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/verify_otp",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"verify_otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "home",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "46huX0pCt5182FKN1UthosqM",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "rzp_live_06vljDh7DiPBSY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MjgwNjg4OTYsImV4cCI6MTYzNTg0NDg5NiwibmJmIjoxNjI4MDY4ODk2LCJqdGkiOiJzUHFrWWNYMEZSeTV2ZTZUIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HD77b5IMRqw7mexCcX-uXwgN60T1whYClHQmcTHDVHU\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/home",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "notification_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MjgwNjg4OTYsImV4cCI6MTYzNTg0NDg5NiwibmJmIjoxNjI4MDY4ODk2LCJqdGkiOiJzUHFrWWNYMEZSeTV2ZTZUIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HD77b5IMRqw7mexCcX-uXwgN60T1whYClHQmcTHDVHU\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/notification_list",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"notification_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "event_details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MjgwNjg4OTYsImV4cCI6MTYzNTg0NDg5NiwibmJmIjoxNjI4MDY4ODk2LCJqdGkiOiJzUHFrWWNYMEZSeTV2ZTZUIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HD77b5IMRqw7mexCcX-uXwgN60T1whYClHQmcTHDVHU\",\"eventID\":\"1\",\"influencers_id\":\"19\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/event_details",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"event_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upcoming_events",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MjgwNjg4OTYsImV4cCI6MTYzNTg0NDg5NiwibmJmIjoxNjI4MDY4ODk2LCJqdGkiOiJzUHFrWWNYMEZSeTV2ZTZUIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HD77b5IMRqw7mexCcX-uXwgN60T1whYClHQmcTHDVHU\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/upcoming_events",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"upcoming_events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "my_profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MjgwNjg4OTYsImV4cCI6MTYzNTg0NDg5NiwibmJmIjoxNjI4MDY4ODk2LCJqdGkiOiJzUHFrWWNYMEZSeTV2ZTZUIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HD77b5IMRqw7mexCcX-uXwgN60T1whYClHQmcTHDVHU\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/my_profile",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"my_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit_profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MjgwNjg4OTYsImV4cCI6MTYzNTg0NDg5NiwibmJmIjoxNjI4MDY4ODk2LCJqdGkiOiJzUHFrWWNYMEZSeTV2ZTZUIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HD77b5IMRqw7mexCcX-uXwgN60T1whYClHQmcTHDVHU",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "gender",
+							"value": "Male",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "09/01/1998",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/anish/Downloads/noimage.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/edit_profile",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"edit_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_question",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MjgwNjg4OTYsImV4cCI6MTYzNTg0NDg5NiwibmJmIjoxNjI4MDY4ODk2LCJqdGkiOiJzUHFrWWNYMEZSeTV2ZTZUIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HD77b5IMRqw7mexCcX-uXwgN60T1whYClHQmcTHDVHU\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/get_question",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"get_question"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "submit_answer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MjgwNjg4OTYsImV4cCI6MTYzNTg0NDg5NiwibmJmIjoxNjI4MDY4ODk2LCJqdGkiOiJzUHFrWWNYMEZSeTV2ZTZUIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HD77b5IMRqw7mexCcX-uXwgN60T1whYClHQmcTHDVHU\",\"question_id\":\"1\",\"option_id\":\"2\",\"event_id\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/submit_answer",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"submit_answer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "gallery_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MjgwNjg4OTYsImV4cCI6MTYzNTg0NDg5NiwibmJmIjoxNjI4MDY4ODk2LCJqdGkiOiJzUHFrWWNYMEZSeTV2ZTZUIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HD77b5IMRqw7mexCcX-uXwgN60T1whYClHQmcTHDVHU\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/gallery_list",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"gallery_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subscription_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MjgwNjg4OTYsImV4cCI6MTYzNTg0NDg5NiwibmJmIjoxNjI4MDY4ODk2LCJqdGkiOiJzUHFrWWNYMEZSeTV2ZTZUIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HD77b5IMRqw7mexCcX-uXwgN60T1whYClHQmcTHDVHU\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/gallery_list",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"gallery_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "wallet_history",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MjgwNjg4OTYsImV4cCI6MTYzNTg0NDg5NiwibmJmIjoxNjI4MDY4ODk2LCJqdGkiOiJzUHFrWWNYMEZSeTV2ZTZUIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HD77b5IMRqw7mexCcX-uXwgN60T1whYClHQmcTHDVHU\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/wallet_history",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"wallet_history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "social_login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/social_login",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"social_login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_wallet",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MjgwNjg4OTYsImV4cCI6MTYzNTg0NDg5NiwibmJmIjoxNjI4MDY4ODk2LCJqdGkiOiJzUHFrWWNYMEZSeTV2ZTZUIiwic3ViIjo0LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.HD77b5IMRqw7mexCcX-uXwgN60T1whYClHQmcTHDVHU\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/get_wallet",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"get_wallet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "influencer_details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvc29jaWFsX2xvZ2luIiwiaWF0IjoxNjI5Nzk2MjA5LCJleHAiOjE2Mzc1NzIyMDksIm5iZiI6MTYyOTc5NjIwOSwianRpIjoiOEJ6T09FRk5zN1FpZ0IydyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2dI2x9w-fPUOd88PF5KiEAR8z4Noi3CdCnx2AIDbtxU\",\"influencer_id\":\"31\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/influencer_details",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"influencer_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "influencer_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvc29jaWFsX2xvZ2luIiwiaWF0IjoxNjI5Nzk2MjA5LCJleHAiOjE2Mzc1NzIyMDksIm5iZiI6MTYyOTc5NjIwOSwianRpIjoiOEJ6T09FRk5zN1FpZ0IydyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2dI2x9w-fPUOd88PF5KiEAR8z4Noi3CdCnx2AIDbtxU\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/influencer_list",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"influencer_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "live_influencer_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvc29jaWFsX2xvZ2luIiwiaWF0IjoxNjI5Nzk2MjA5LCJleHAiOjE2Mzc1NzIyMDksIm5iZiI6MTYyOTc5NjIwOSwianRpIjoiOEJ6T09FRk5zN1FpZ0IydyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2dI2x9w-fPUOd88PF5KiEAR8z4Noi3CdCnx2AIDbtxU\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/live_influencer_list",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"live_influencer_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "chats",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvc29jaWFsX2xvZ2luIiwiaWF0IjoxNjI5Nzk2MjA5LCJleHAiOjE2Mzc1NzIyMDksIm5iZiI6MTYyOTc5NjIwOSwianRpIjoiOEJ6T09FRk5zN1FpZ0IydyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2dI2x9w-fPUOd88PF5KiEAR8z4Noi3CdCnx2AIDbtxU\",\"eventId\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/chats",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"chats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "chat_submit",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvc29jaWFsX2xvZ2luIiwiaWF0IjoxNjI5Nzk2MjA5LCJleHAiOjE2Mzc1NzIyMDksIm5iZiI6MTYyOTc5NjIwOSwianRpIjoiOEJ6T09FRk5zN1FpZ0IydyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2dI2x9w-fPUOd88PF5KiEAR8z4Noi3CdCnx2AIDbtxU\",\"eventId\":\"14\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/chats",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"chats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "winers_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvc29jaWFsX2xvZ2luIiwiaWF0IjoxNjI5Nzk2MjA5LCJleHAiOjE2Mzc1NzIyMDksIm5iZiI6MTYyOTc5NjIwOSwianRpIjoiOEJ6T09FRk5zN1FpZ0IydyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2dI2x9w-fPUOd88PF5KiEAR8z4Noi3CdCnx2AIDbtxU\",\"eventId\":\"14\",\"text\":\"Hi\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/winers_list",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"winers_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "my_participation",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvc29jaWFsX2xvZ2luIiwiaWF0IjoxNjI5Nzk2MjA5LCJleHAiOjE2Mzc1NzIyMDksIm5iZiI6MTYyOTc5NjIwOSwianRpIjoiOEJ6T09FRk5zN1FpZ0IydyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2dI2x9w-fPUOd88PF5KiEAR8z4Noi3CdCnx2AIDbtxU\",\"question_id\":\"1\",\"eventId\":\"3\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/my_participation",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"my_participation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "question_winner_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MzA2NTI0MjAsImV4cCI6MTYzODQyODQyMCwibmJmIjoxNjMwNjUyNDIwLCJqdGkiOiJST25lRmRRRWJjZEZWbVd5Iiwic3ViIjo5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.fYwO-m3YDICSH3I-1xUD_JffJRPEn9u7ZhYqpR7ZCt8\",\"eventId\":\"3\",\"question_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/question_winner_list",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"question_winner_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "join_live",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZmFuc3N0dWRpby5kZXZjbHViLmNvLmluXC9hcGlcL2FwaVwvbG9naW5fcGFzc3dvcmQiLCJpYXQiOjE2MzA2NTI0MjAsImV4cCI6MTYzODQyODQyMCwibmJmIjoxNjMwNjUyNDIwLCJqdGkiOiJST25lRmRRRWJjZEZWbVd5Iiwic3ViIjo5LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.fYwO-m3YDICSH3I-1xUD_JffJRPEn9u7ZhYqpR7ZCt8\",\"eventId\":\"3\",\"question_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/join_live",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"join_live"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "forget_password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"test0987@gmail.com\",\"password\":\"1234567890\",\"confirm_password\":\"1234567890\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fansstudio.devclub.co.in/api/api/forget_password",
+					"protocol": "https",
+					"host": [
+						"fansstudio",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"forget_password"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

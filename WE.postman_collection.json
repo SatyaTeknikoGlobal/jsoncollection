@@ -1,0 +1,1467 @@
+{
+	"info": {
+		"_postman_id": "9012e8ea-e36b-4da6-b61d-565d54678e43",
+		"name": "WE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "addwishlist",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/my_wishlist",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"my_wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "designer",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"userID\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjMwIiwibmFtZSI6IlNhdHlhIiwiZ2VuZGVyIjoibWFsZSIsInBob3RvIjoiaHR0cDpcL1wvZGV2Y2x1Yi5jby5pblwvd2VcL3VwbG9hZHNcL3VzZXJcLyIsImRvYiI6bnVsbCwicmVmZXJyYWxfY29kZSI6IlNUMTAxIiwicmVmZXJyYWxfdXNlcklEIjoiMCIsInppcCI6bnVsbCwiY2l0eSI6bnVsbCwiY291bnRyeSI6IkluZGlhIiwiYWRkcmVzcyI6Im5vaWRhIiwicGhvbmUiOiI2MzcwMzcxNDA2IiwiZmF4IjpudWxsLCJlbWFpbCI6InNhdHlhc2Fob28uYWJjQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJ5JDEwJGVrUEEuOEpXeDN0NDV5QmZmR284VS5sUU9OVXA1Wm9IbkhER2dYXC9Hd1lYRUh3TUh0ZVVwYSIsInJlbWVtYmVyX3Rva2VuIjoiS0w5bkpCakdxQlFvNHhmWk5sU2U0TVlkSnZqa0c2UTZ2dHlQUWx2VW5lbWRIYWZoWU05aU13ZFhtRTNWIiwiY3JlYXRlZF9hdCI6IjIwMjEtMDItMDEgMDY6MzQ6MDkiLCJ1cGRhdGVkX2F0IjoiMjAyMS0wMi0wMSAwNzowMjo0NiIsImlzX3Byb3ZpZGVyIjoiMCIsInN0YXR1cyI6IjAiLCJ2ZXJpZmljYXRpb25fbGluayI6ImVjNWJiNDQ0MmE5YWQ5MWU3MTk1OTE5ODllYzlhYTMxIiwiZW1haWxfdmVyaWZpZWQiOiJZZXMiLCJhZmZpbGF0ZV9jb2RlIjoiMWZiYzhkZWY1MTIwNzU3NzM2ZjA4YzFkOWRlN2QzZjEiLCJhZmZpbGF0ZV9pbmNvbWUiOiIwIiwic2hvcF9uYW1lIjpudWxsLCJvd25lcl9uYW1lIjpudWxsLCJzaG9wX251bWJlciI6bnVsbCwic2hvcF9hZGRyZXNzIjpudWxsLCJyZWdfbnVtYmVyIjpudWxsLCJzaG9wX21lc3NhZ2UiOm51bGwsInNob3BfZGV0YWlscyI6bnVsbCwic2hvcF9pbWFnZSI6bnVsbCwiZl91cmwiOm51bGwsImdfdXJsIjpudWxsLCJ0X3VybCI6bnVsbCwibF91cmwiOm51bGwsImlzX3ZlbmRvciI6IjAiLCJmX2NoZWNrIjoiMCIsImdfY2hlY2siOiIwIiwidF9jaGVjayI6IjAiLCJsX2NoZWNrIjoiMCIsIm1haWxfc2VudCI6IjAiLCJzaGlwcGluZ19jb3N0IjoiMCIsImN1cnJlbnRfYmFsYW5jZSI6IjAiLCJkYXRlIjpudWxsLCJiYW4iOiIwIiwidGltZVN0YW1wIjoiMjAyMS0wNS0xOSAxMToxMTo1NCJ9.7cN-p13FYbRnQUE2-iWT65tx5xl_BuGNIsZ6WRxKdLI\",}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://devclub.co.in/we/webservice/login",
+					"protocol": "http",
+					"host": [
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"we",
+						"webservice",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send_otp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mobile\": \"9350943816\"}\r\n\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/send_otp",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"send_otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mobile\":\"6370371406\",\"otp\":\"2215\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/login",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_categories",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/login_password",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"login_password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login_password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mobile\":\"6370371406\",\"password\":\"123456\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/login_password",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"login_password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjM3OSwiZXhwIjoxNjI5NDQyMzc5LCJuYmYiOjE2MjE2NjYzNzksImp0aSI6IkVSQ0VFOVNHWE1GUldEdHIiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.LFJAB-SOs-04DoaWR4mIiyRLTtBXRjC8PzGshLhXyu8\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/logout",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "signup",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"tekniko\",\"phone\":\"1234567895\",\"email\":\"tek@gmail.com\",\"password\":\"123456\",\"gender\":\"male\",\"referral_code\":\"\",\"dob\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astrosetu.devclub.co.in/api/user_register",
+					"protocol": "https",
+					"host": [
+						"astrosetu",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"user_register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "banners",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/banners",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"banners"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_cart",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\",\"productID\":\"8\",\"qty\":\"1\",\"size_previous_price\":\"500\",\"size_price\":\"299\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/update_cart",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"update_cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list_user_cart",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/list_user_cart",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"list_user_cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "my_wishlist",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9zaWdudXAiLCJpYXQiOjE2MjI2OTY3MTEsImV4cCI6MTYzMDQ3MjcxMSwibmJmIjoxNjIyNjk2NzExLCJqdGkiOiJsMjBiU1hhVnhPenI0SHJlIiwic3ViIjo1NiwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.FGdEi0ra1HYeBj5vFEriw1mxQAnSdewmHvo5YiA10xc\", \"productID\": \"8\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/addwishlist",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"addwishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "notification_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\",\"productID\":\"5\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/notification_list",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"notification_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "designers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/designers",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"designers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "coupon_listing",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/coupon_listing",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"coupon_listing"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cart_count",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/cart_count",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"cart_count"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "feature_brands",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/brands",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"brands"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "best_accessories",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/best_accessories",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"best_accessories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "my_profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/my_profile",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"my_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_categories",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"astrologerID\":\"42\",\"call_rate\":\"3\",\"currency\":\"INR\",\"userID\":\"18\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astrosetu.devclub.co.in/api/video_call_initiate",
+					"protocol": "https",
+					"host": [
+						"astrosetu",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"video_call_initiate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "top_category",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/top_category",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"top_category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all_products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYyNjg1ODg2NCwiZXhwIjoxNjM0NjM0ODY0LCJuYmYiOjE2MjY4NTg4NjQsImp0aSI6IkhmVHVPeXdydjVWVXp0b0oiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.qj0CyU2GTdOAmPOVSsJqhr2L-xQjX2Ir7y7DhDjjOXM\", \"brand\":\"\" , \"size\": \"\", \"min_price\":\"\" , \"max_price\": \"\", \"category\": \"\", \"offer\": \"\", \"sort\":\"\" , \"color\": \"\", \"condition\": \"\", \"designer_id\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/all_products",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"all_products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "product_detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\",\"productID\":\"6\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/product_detail",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"product_detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list_location",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/list_location",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"list_location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_user_location",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\",\"contact_person_name\":\"ssss\",\"contact_person_mobile\":\"7894561230\",\"flat_no\":\"123\",\"landmark\":\"jagannath mandir\",\"address_type\":\"home\",\"pincode\":\"756168\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/add_user_location",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"add_user_location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "my_order",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/my_order",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"my_order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "my_order_details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\",\"orderID\":\"6\",\"itemID\":\"6\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/my_order_details",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"my_order_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cancel_order",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hot_deals",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/hot_deals",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"hot_deals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "home_category",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/home_category",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"home_category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "new_collection",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/new_collection",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"new_collection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "top_best_sellers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/top_best_sellers",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"top_best_sellers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fashion_best_seller",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/fashion_best_seller",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"fashion_best_seller"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "new_arriaval",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/new_arriaval",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"new_arriaval"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "placeorder",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\",\r\n\t\"address_id\": \"2\",\r\n\t\"payment_type\": \"COD\",\r\n\t\"item\": \"[{\\\"brand\\\":null,\\\"brand_id\\\":\\\"1\\\",\\\"category_id\\\":\\\"1\\\",\\\"color\\\":\\\"#000000\\\",\\\"description\\\":\\\"best product\\\",\\\"id\\\":\\\"21\\\",\\\"name\\\":\\\"HRX by Hrithik Roshan\\\",\\\"net_price\\\":1257,\\\"photo\\\":\\\"https://devclub.co.in/we/admin/uploads/products/1614752754sylUnpfY.png\\\",\\\"previous_price\\\":\\\"619.00\\\",\\\"price\\\":\\\"419.00\\\",\\\"qty\\\":\\\"3\\\",\\\"size\\\":\\\"S\\\"},{\\\"brand\\\":null,\\\"brand_id\\\":\\\"0\\\",\\\"category_id\\\":\\\"1\\\",\\\"color\\\":\\\"#000000\\\",\\\"description\\\":null,\\\"id\\\":\\\"3\\\",\\\"name\\\":\\\"Men Red & Black Regular Fit Checked Casual Shirt\\\",\\\"net_price\\\":419,\\\"photo\\\":\\\"https://devclub.co.in/we/admin/uploads/products/c.png\\\",\\\"previous_price\\\":\\\"619.00\\\",\\\"price\\\":\\\"419.00\\\",\\\"qty\\\":\\\"1\\\",\\\"size\\\":\\\"S\\\"},{\\\"brand\\\":null,\\\"brand_id\\\":\\\"1\\\",\\\"category_id\\\":\\\"1\\\",\\\"color\\\":\\\"#ed1acb\\\",\\\"description\\\":\\\"LIVE LOVE LAUGH T-SHIRT FOR MEN\\\",\\\"id\\\":\\\"1\\\",\\\"name\\\":\\\"Paisley Floral Embroidery Kurta Set\\\",\\\"net_price\\\":500,\\\"photo\\\":\\\"https://devclub.co.in/we/admin/uploads/products/a.png\\\",\\\"previous_price\\\":\\\"750.00\\\",\\\"price\\\":\\\"500.00\\\",\\\"qty\\\":\\\"1\\\",\\\"size\\\":\\\"M\\\"}]\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/placeorder",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"placeorder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search_data",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/search_data",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"search_data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "today_offers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "product_search",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\",\"search\":\"jjj\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/product_search",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"product_search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "contactus",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\",\"search\":\"real\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/contactus",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"contactus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "thrifts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/thrifts",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"thrifts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "designers_category",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/designers_category",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"designers_category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "wallet",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/wallet_history",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"wallet_history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_wallet",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Vwfz93X6tKQLHm2vMOq2hgJa",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "rzp_test_5CaCLwBefmQMsI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\", \"amount\": \"1.0\", \"transactionID\": \"pay_HMrm0YEOuNKSF7\"}\r\n\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/add_wallet",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"add_wallet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_order_payment_status",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnNob3B3aXRod2UuaW5cL2FwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYyMTY2NjU0MSwiZXhwIjoxNjI5NDQyNTQxLCJuYmYiOjE2MjE2NjY1NDEsImp0aSI6InpVdkxRb2M1ZjZaMTRnTHYiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.X5edo5H4aqrJek8HAcD_dzAiacH461pFLJFpZjrsvQQ\",\"orderId\":\"37\",\"txn_no\":\"pay_HMrm0YEOuNKSF7\",\"payment_type\":\"ONLINE\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.shopwithwe.in/api/api/get_order_payment_status",
+					"protocol": "https",
+					"host": [
+						"www",
+						"shopwithwe",
+						"in"
+					],
+					"path": [
+						"api",
+						"api",
+						"get_order_payment_status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

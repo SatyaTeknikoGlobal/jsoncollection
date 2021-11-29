@@ -1,0 +1,549 @@
+{
+	"info": {
+		"_postman_id": "a9deec37-f3cc-4df0-a96a-d2c71b936080",
+		"name": "iasgyan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getCourses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/getCourses",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"getCourses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "home",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjI1NDc2ODgxLCJleHAiOjE2MzMyNTI4ODEsIm5iZiI6MTYyNTQ3Njg4MSwianRpIjoic0xET3hDV3VjUDV4a0JoYyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.SSdcUW4CK9tim1BEgUVFtPhhdhG9TOdTlJL33KJlbHY\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/home",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send_otp2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone\":\"6370371406\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.org/api/send_otp_v2",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"org"
+					],
+					"path": [
+						"api",
+						"send_otp_v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "videolist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL2xvZ2luX3YyIiwiaWF0IjoxNjI1NTUxMjY5LCJleHAiOjE2MzMzMjcyNjksIm5iZiI6MTYyNTU1MTI2OSwianRpIjoieTRkWXdMV2hhOWtGZjdZcyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.6g1Q3PXDu33KPz04gLwB1mqcIcxeDC7FEOYsPFIzr5w\", \"examId\": \"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/home",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "news_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL3JlZ2lzdGVyX3YyIiwiaWF0IjoxNjI4NzU5NzM5LCJleHAiOjE2MzY1MzU3MzksIm5iZiI6MTYyODc1OTczOSwianRpIjoieHE4N2hhVzdnQjRrQm5SSCIsInN1YiI6MjUsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.xctRarmZvUmgdpRFqGDmjBGBHVmSSHR6yzi749lmhC8\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/news_list",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"news_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_news_list_from_month",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjI1NDc2ODgxLCJleHAiOjE2MzMyNTI4ODEsIm5iZiI6MTYyNTQ3Njg4MSwianRpIjoic0xET3hDV3VjUDV4a0JoYyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.SSdcUW4CK9tim1BEgUVFtPhhdhG9TOdTlJL33KJlbHY\",\"date\":\"Jyly, 2021\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/get_news_list_from_month",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"get_news_list_from_month"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "news_details",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone\":\"6370371406\",\"otp\":\"7322\",\"name\":\"satya\",\"referal_code\":\"ARXMHJBK\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.org/api/register_v2",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"org"
+					],
+					"path": [
+						"api",
+						"register_v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bookmark_news",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjI1NDc2ODgxLCJleHAiOjE2MzMyNTI4ODEsIm5iZiI6MTYyNTQ3Njg4MSwianRpIjoic0xET3hDV3VjUDV4a0JoYyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.SSdcUW4CK9tim1BEgUVFtPhhdhG9TOdTlJL33KJlbHY\",\"newsId\":\"3\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/news_details",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"news_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "testimonials",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjI1NDc2ODgxLCJleHAiOjE2MzMyNTI4ODEsIm5iZiI6MTYyNTQ3Njg4MSwianRpIjoic0xET3hDV3VjUDV4a0JoYyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.SSdcUW4CK9tim1BEgUVFtPhhdhG9TOdTlJL33KJlbHY\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/testimonials",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"testimonials"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "openMockTest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjI1NDc2ODgxLCJleHAiOjE2MzMyNTI4ODEsIm5iZiI6MTYyNTQ3Njg4MSwianRpIjoic0xET3hDV3VjUDV4a0JoYyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.SSdcUW4CK9tim1BEgUVFtPhhdhG9TOdTlJL33KJlbHY\",\"topic_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/exam_list",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"exam_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "daily_news_analysis",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjI1NDc2ODgxLCJleHAiOjE2MzMyNTI4ODEsIm5iZiI6MTYyNTQ3Njg4MSwianRpIjoic0xET3hDV3VjUDV4a0JoYyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.SSdcUW4CK9tim1BEgUVFtPhhdhG9TOdTlJL33KJlbHY\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/daily_news_analysis",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"daily_news_analysis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bookmark_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjI1NDc2ODgxLCJleHAiOjE2MzMyNTI4ODEsIm5iZiI6MTYyNTQ3Njg4MSwianRpIjoic0xET3hDV3VjUDV4a0JoYyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.SSdcUW4CK9tim1BEgUVFtPhhdhG9TOdTlJL33KJlbHY\",\"key\":\"te\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/news_search",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"news_search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bookmark_master",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL2xvZ2luX3YyIiwiaWF0IjoxNjI5MzcwODcwLCJleHAiOjE2MzcxNDY4NzAsIm5iZiI6MTYyOTM3MDg3MCwianRpIjoiTkFkQWlwcHByV3VYc2tTVCIsInN1YiI6MjUsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.52ArFDS6-NUE3ALywIFtX25Y9eF_rHaXUWzAa7CVXY0\",\r\n\t\"course_id\": \"8\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/   \n",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"   \n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "examRank",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjI1NDc2ODgxLCJleHAiOjE2MzMyNTI4ODEsIm5iZiI6MTYyNTQ3Njg4MSwianRpIjoic0xET3hDV3VjUDV4a0JoYyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.SSdcUW4CK9tim1BEgUVFtPhhdhG9TOdTlJL33KJlbHY\", \"examId\": \"2\"}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/exam_details",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"exam_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "check_payment",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL2xvZ2luX3YyIiwiaWF0IjoxNjI4NzY5Nzg5LCJleHAiOjE2MzY1NDU3ODksIm5iZiI6MTYyODc2OTc4OSwianRpIjoiRUowQjR0UmliRENJWFdEMCIsInN1YiI6MjUsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.n9Pkn1PkzAu4WkkQ80qtReMfkMtNel6MLprD66EMUzE\", \"amount\": \"130000\", \"transactionID\": \"pay_HkadXfk7WnFqzR\", \"topicId\": \"2\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/check_payment",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"check_payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "program_details",
+			"request": {
+				"auth": {
+					"type": "oauth1",
+					"oauth1": [
+						{
+							"key": "signatureMethod",
+							"value": "HMAC-SHA1",
+							"type": "string"
+						},
+						{
+							"key": "version",
+							"value": "1.0",
+							"type": "string"
+						},
+						{
+							"key": "addParamsToHeader",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "addEmptyParamsToSign",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaWFzZ3lhbi5kZXZjbHViLmNvLmluXC9hcGlcL2xvZ2luX3YyIiwiaWF0IjoxNjI5MzcwODcwLCJleHAiOjE2MzcxNDY4NzAsIm5iZiI6MTYyOTM3MDg3MCwianRpIjoiTkFkQWlwcHByV3VYc2tTVCIsInN1YiI6MjUsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.52ArFDS6-NUE3ALywIFtX25Y9eF_rHaXUWzAa7CVXY0\",\"topic_id\":\"3\",\"id\":\"3\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iasgyan.devclub.co.in/api/promotional_video",
+					"protocol": "https",
+					"host": [
+						"iasgyan",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"promotional_video"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

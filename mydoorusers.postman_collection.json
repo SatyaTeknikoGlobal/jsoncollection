@@ -1,0 +1,1004 @@
+{
+	"info": {
+		"_postman_id": "f9f2e9be-1131-4a05-975a-e68fb6b953de",
+		"name": "mydoorusers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "send_otp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mobile\":\"6370371406\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/send_otp",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"send_otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "verify_otp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mobile\":\"68237\",\"otp\":\"sdf\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/usersapi/api/verify_otp",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"verify_otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mobile\":\"213123\",\"otp\":\"1234\",\"deviceID\":\"sdf\",\"deviceToken\":\"sdf\",\"deviceType\":\"dfdf\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/login",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Satyanarayan Sahoo\",\"phone\":\"6370371406\",\"email\":\"satya@gmail.com\",\"gender\":\"male\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/usersapi/api/signup",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL3VzZXJzYXBpXC9hcGlcL3NpZ251cCIsImlhdCI6MTYzMTE2NDU4NiwiZXhwIjoxNjM4OTQwNTg2LCJuYmYiOjE2MzExNjQ1ODYsImp0aSI6IjlSN3YwRmRvaUpsR2J0Z0IiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.NC07yNn-D0Mn-eHtDYcTXe_nb9S78cFxoXOwUN_1xM8\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/usersapi/api/profile",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL3VzZXJzYXBpXC9hcGlcL3NpZ251cCIsImlhdCI6MTYzMTE2NDU4NiwiZXhwIjoxNjM4OTQwNTg2LCJuYmYiOjE2MzExNjQ1ODYsImp0aSI6IjlSN3YwRmRvaUpsR2J0Z0IiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.NC07yNn-D0Mn-eHtDYcTXe_nb9S78cFxoXOwUN_1xM8",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Suvidha apartment",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/usersapi/api/update_profile",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"update_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "notification_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL3VzZXJzYXBpXC9hcGlcL3NpZ251cCIsImlhdCI6MTYzMTE2NDU4NiwiZXhwIjoxNjM4OTQwNTg2LCJuYmYiOjE2MzExNjQ1ODYsImp0aSI6IjlSN3YwRmRvaUpsR2J0Z0IiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.NC07yNn-D0Mn-eHtDYcTXe_nb9S78cFxoXOwUN_1xM8\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/usersapi/api/notification_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"notification_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "visitors_entry",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL3VzZXJzYXBpXC9hcGlcL3NpZ251cCIsImlhdCI6MTYzMTE2NDU4NiwiZXhwIjoxNjM4OTQwNTg2LCJuYmYiOjE2MzExNjQ1ODYsImp0aSI6IjlSN3YwRmRvaUpsR2J0Z0IiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.NC07yNn-D0Mn-eHtDYcTXe_nb9S78cFxoXOwUN_1xM8\",\"key\":\"add\",\"visitor_name\":\"Satya\",\"reason\":\"Plumber\",\"phone\":\"1234567890\",\"time\":\"12:30\",\"date\":\"2021-10-23\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/usersapi/api/visitors_entry",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"visitors_entry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "state_city_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL3VzZXJzYXBpXC9hcGlcL3NpZ251cCIsImlhdCI6MTYzMTE2NDU4NiwiZXhwIjoxNjM4OTQwNTg2LCJuYmYiOjE2MzExNjQ1ODYsImp0aSI6IjlSN3YwRmRvaUpsR2J0Z0IiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.NC07yNn-D0Mn-eHtDYcTXe_nb9S78cFxoXOwUN_1xM8\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/usersapi/api/state_city_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"state_city_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "society_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL3VzZXJzYXBpXC9hcGlcL3NpZ251cCIsImlhdCI6MTYzMTE2NDU4NiwiZXhwIjoxNjM4OTQwNTg2LCJuYmYiOjE2MzExNjQ1ODYsImp0aSI6IjlSN3YwRmRvaUpsR2J0Z0IiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.NC07yNn-D0Mn-eHtDYcTXe_nb9S78cFxoXOwUN_1xM8\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/usersapi/api/society_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"society_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_blocks_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL3VzZXJzYXBpXC9hcGlcL3NpZ251cCIsImlhdCI6MTYzMTE2NDU4NiwiZXhwIjoxNjM4OTQwNTg2LCJuYmYiOjE2MzExNjQ1ODYsImp0aSI6IjlSN3YwRmRvaUpsR2J0Z0IiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.NC07yNn-D0Mn-eHtDYcTXe_nb9S78cFxoXOwUN_1xM8\",\"society_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/usersapi/api/get_blocks_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"get_blocks_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_flats_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL3VzZXJzYXBpXC9hcGlcL3NpZ251cCIsImlhdCI6MTYzMTE2NDU4NiwiZXhwIjoxNjM4OTQwNTg2LCJuYmYiOjE2MzExNjQ1ODYsImp0aSI6IjlSN3YwRmRvaUpsR2J0Z0IiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.NC07yNn-D0Mn-eHtDYcTXe_nb9S78cFxoXOwUN_1xM8\",\"society_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/usersapi/api/get_blocks_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"get_blocks_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cmspages",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL3VzZXJzYXBpXC9hcGlcL3NpZ251cCIsImlhdCI6MTYzMTE2NDU4NiwiZXhwIjoxNjM4OTQwNTg2LCJuYmYiOjE2MzExNjQ1ODYsImp0aSI6IjlSN3YwRmRvaUpsR2J0Z0IiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.NC07yNn-D0Mn-eHtDYcTXe_nb9S78cFxoXOwUN_1xM8\",\"type\":\"terms\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/usersapi/api/cmspages",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"cmspages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "uploadUserDocument",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/anish/Downloads/andrew-pons-9713-2000x1333.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/uploadUserDocument",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"uploadUserDocument"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_user_document",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\"}"
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/get_user_document",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"get_user_document"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_family_member",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\",\"name\":\"dsfsdf\",\"email\":\"saaa@gmail.com\",\"phone\":\"1234512345\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/add_family_member",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"add_family_member"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "service_category",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\",\"type\":\"add\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/add_family_member",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"add_family_member"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "service_user_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\",\"cat_id\":\"3\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/service_user_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"service_user_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "userVehicle",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzNDEwNDcyOSwiZXhwIjoxNjQxODgwNzI5LCJuYmYiOjE2MzQxMDQ3MjksImp0aSI6IkdBcHhUcVhBdjlISTJ6cjUiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.SsWcZVFhzDjtqivVvjaB4Q4RBj8PXL4FwGJFgEqrGIw",
+							"type": "text"
+						},
+						{
+							"key": "key",
+							"value": "add",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "car_name",
+							"value": "dsfsdfsdfsdf",
+							"type": "text"
+						},
+						{
+							"key": "vehicle_no",
+							"value": "123333",
+							"type": "text"
+						},
+						{
+							"key": "vehicle_type",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/C:/Users/anish/Downloads/image1613036074.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/userVehicle",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"userVehicle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "assign_daily_help",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\",\"cat_id\":\"3\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/userVehicle",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"userVehicle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "visitors_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\",\"service_userId\":\"3\",\"service_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/visitors_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"visitors_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "daily_help_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send_test_notification",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "complain_type_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/complain_type_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"complain_type_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "complaint_submit_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\",\"complaint_type\":\"Personal\",\"complaint_category\":\"Electrical\",\"text\":\"Test\",\"type\":\"save\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/complaint_submit_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"complaint_submit_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "resident_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/resident_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"resident_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "approve_visitor",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\",\"requestId\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/approve_visitor",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"approve_visitor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all_visitors_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\",\"page\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/all_visitors_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"all_visitors_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "chat_with_guard",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\",\"page\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/chat_with_guard",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"chat_with_guard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "emergency",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC91c2Vyc2FwaVwvYXBpXC9sb2dpbiIsImlhdCI6MTYzMzQxMzMxMCwiZXhwIjoxNjQxMTg5MzEwLCJuYmYiOjE2MzM0MTMzMTAsImp0aSI6IkZpNW5oTFBFRkx0RDR2NHIiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.nKF4rhXzm68oBJJ1C32DH9FJ1hiR8RFnGbDmhR9HNBc\",\"text\":\"hiiioi\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/emergency",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"emergency"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

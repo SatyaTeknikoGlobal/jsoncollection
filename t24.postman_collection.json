@@ -1,0 +1,1211 @@
+{
+	"info": {
+		"_postman_id": "e1f0e3c0-7b6a-44d0-9011-0864c210d6a5",
+		"name": "t24",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "send_otp",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone\":\"6370371406\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro24.com/api/userapi/send_otp",
+					"protocol": "https",
+					"host": [
+						"talkastro24",
+						"com"
+					],
+					"path": [
+						"api",
+						"userapi",
+						"send_otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"deviceID\":\"dsfd\",\"deviceToken\":\"dsfdsf\",\"deviceType\":\"dbf\",\"mobile\":\"6370371406\",\"otp\":\"6612\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/login",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "signup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editprofile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"28\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/get_profile",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"get_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/home",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit_profile_photo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/anish/Downloads/default_user.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/edit_profile_photo",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"edit_profile_photo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "otp_match",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"12\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/user_profile",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"user_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create_user_profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"12\",\"name\":\"satya\",\"dob\":\"12-04-2021\",\"birth_time\":\"12:20:00\",\"birth_place\":\"Noida\",\"gender\":\"Male\":\"relationship\":\"Friend\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/create_user_profile",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"create_user_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit_user_profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"12\",\"name\":\"satya\",\"dob\":\"12-04-2021\",\"birth_time\":\"12:20:00\",\"birth_place\":\"Noida\",\"gender\":\"Male\",\"relationship\":\"Friend\",\"profile_id\":\"12\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/edit_relation_user_profile",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"edit_relation_user_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "astrologer_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/astrologer_list",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"astrologer_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://talkastro.devclub.co.in/userapi/today_horoscope",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sign\": \"aries\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/horoscope",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"horoscope"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_shop_category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/get_shop_category",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"get_shop_category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_category_product",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"categoryID\":\"1\",\"user_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/get_category_product",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"get_category_product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "product_details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"productID\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/product_details",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"product_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_to_cart",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"1\",\"productID\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/add_to_cart",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"add_to_cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cart_minus",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"1\",\"productID\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/cart_minus",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"cart_minus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "astrologer_detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"astrologer_id\":\"27\",\"user_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/astrologer_detail",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"astrologer_detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cart_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "address_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"28\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/address_list",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"address_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_address",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"28\",\"home\":\"28\",\"address\":\"28\",\"locality\":\"28\",\"pincode\":\"28\",\"mobile\":\"28\",\"state_id\":\"5\",\"city_id\":\"10\",\"type\":\"home\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/add_address",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"add_address"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "state_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"28\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/state_list",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"state_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "city_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"28\",\"state_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/city_list",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"city_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "place_order",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"28\",\"address_id\":\"5\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/place_order",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"place_order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkout",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"28\",\"address_id\":\"5\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/checkout",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"checkout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ask_question_history",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"28\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/ask_question_history",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"ask_question_history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "report_history",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"28\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/report_history",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"report_history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "notifications",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"28\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/notifications",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"notifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "my_orders",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"28\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/my_orders",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"my_orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "my_orders_details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"28\",\"order_id\":\"22\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/my_orders_details",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"my_orders_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "video_call_initiate",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"userID\":\"28\",\"astrologerID\":\"29\",\"max_call_min\":\"10\",\"call_rate\":\"30\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astrosetu.devclub.co.in/api/video_call_initiate",
+					"protocol": "https",
+					"host": [
+						"astrosetu",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"video_call_initiate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "video_call_coin_deduct",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"channel_id\":\"28_271620628641astro\",\"id\":\"27\",\"amount\":\"50\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/video_call_coin_deduct",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"video_call_coin_deduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "video_change_connection_request_status",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"channel_id\":\"34_1701623234622astro\",\"id\":\"28\",\"status\":\"1\",\"type\":\"v_astrologer_reject\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/change_connection_request_status",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"change_connection_request_status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "placeorder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "notification",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"userID\":\"28\",\"name\":\"satya\",\"email\":\"satya@gmail.com\",\"gender\":\"male\",\"dob\":\"09-01-1998\",\"birth_time\":\"11:10\",\"birth_place\":\"noida\",\"activity\":\"edit\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/edit_user",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"edit_user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "initiate_txn",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"type\":\"user_id\",\"amount\":\"100\",\"txn_no\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astrosetu.devclub.co.in/api/donation_deduct",
+					"protocol": "https",
+					"host": [
+						"astrosetu",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"donation_deduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "signup_send_otp",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone\":\"6370371406\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/signup_send_otp",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"signup_send_otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "donation_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"user_id\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://astrosetu.devclub.co.in/api/donation_list",
+					"protocol": "https",
+					"host": [
+						"astrosetu",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"api",
+						"donation_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cmspage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://talkastro.devclub.co.in/userapi/aboutus",
+					"protocol": "https",
+					"host": [
+						"talkastro",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"userapi",
+						"aboutus"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
