@@ -1,0 +1,759 @@
+{
+	"info": {
+		"_postman_id": "2ea62e62-3f3f-4636-b459-80ce3ff05200",
+		"name": "NayaEducation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\":\"satya@gmail.com\",\"password\":\"1234567890\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/login",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Satya\",\"phone\":\"1234567890\",\"name\":\"Satya\",\"email\":\"satya@gmail.com\",\"password\":\"123456\",\"deviceID\":\"asdasdasd\",\"deviceToken\":\"Ssdfsdfsdfdsfatya\",\"deviceType\":\"fdgfdgdfg\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/register",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDI4NjU3LCJleHAiOjE2NDY4MDQ2NTcsIm5iZiI6MTYzOTAyODY1NywianRpIjoiZ2lCandOandUdmZSTHRmUCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.pwiadNkYdg2fbMpPR07FLTj447ZIwpd4ZHXfQtUjfgI\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/logout",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDI4ODM3LCJleHAiOjE2NDY4MDQ4MzcsIm5iZiI6MTYzOTAyODgzNywianRpIjoiOGR2NFJ0bWZTSU9pVjczNSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.uHDaBRPaFhp9D8-OXZ0uJeZ97mMB5WBlaMwKPwrXe_w\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/profile",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDI4ODM3LCJleHAiOjE2NDY4MDQ4MzcsIm5iZiI6MTYzOTAyODgzNywianRpIjoiOGR2NFJ0bWZTSU9pVjczNSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.uHDaBRPaFhp9D8-OXZ0uJeZ97mMB5WBlaMwKPwrXe_w",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Satya",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Windows 10/Downloads/061221053104-img2.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/update_profile",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"update_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "change_password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDI3NTQyLCJleHAiOjE2NDY4MDM1NDIsIm5iZiI6MTYzOTAyNzU0MiwianRpIjoiVmNETVB4TE5nakVKYjN4RCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.ZVw1ox6wb_tlDAc-FHhKW5FEKZJlKJE4gJIdsw2iJ3s\",\"password\":\"1234567890\",\"confirm_password\":\"1234567890\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/change_password",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"change_password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "state_city_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDI4ODM3LCJleHAiOjE2NDY4MDQ4MzcsIm5iZiI6MTYzOTAyODgzNywianRpIjoiOGR2NFJ0bWZTSU9pVjczNSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.uHDaBRPaFhp9D8-OXZ0uJeZ97mMB5WBlaMwKPwrXe_w\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/state_city_list",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"state_city_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cmspages",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDI4ODM3LCJleHAiOjE2NDY4MDQ4MzcsIm5iZiI6MTYzOTAyODgzNywianRpIjoiOGR2NFJ0bWZTSU9pVjczNSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.uHDaBRPaFhp9D8-OXZ0uJeZ97mMB5WBlaMwKPwrXe_w\",\"type\":\"contactus\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/cmspages",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"cmspages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "notification_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDI4ODM3LCJleHAiOjE2NDY4MDQ4MzcsIm5iZiI6MTYzOTAyODgzNywianRpIjoiOGR2NFJ0bWZTSU9pVjczNSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.uHDaBRPaFhp9D8-OXZ0uJeZ97mMB5WBlaMwKPwrXe_w\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/notification_list",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"notification_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "contact_us",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDI4ODM3LCJleHAiOjE2NDY4MDQ4MzcsIm5iZiI6MTYzOTAyODgzNywianRpIjoiOGR2NFJ0bWZTSU9pVjczNSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.uHDaBRPaFhp9D8-OXZ0uJeZ97mMB5WBlaMwKPwrXe_w\",\"name\":\"Satya\",\"email\":\"satya@gmail.com\",\"message\":\"Test\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/contact_us",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"contact_us"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "forget_password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\":\"satyatekniko@gmail.com\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/forget_password",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"forget_password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "verify_otp_forget_password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\":\"satyatekniko@gmail.com\",\"otp\":\"1295\",\"password\":\"123456\",\"confirm_password\":\"123456\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/verify_otp_forget_password",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"verify_otp_forget_password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "home",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDMxNDc3LCJleHAiOjE2NDY4MDc0NzcsIm5iZiI6MTYzOTAzMTQ3NywianRpIjoiNGw1S2NIQ3U3aUUzczF1dCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.be5ta1Pxj4Jqk0OZ0vAwVTNbgMNU7gxMFiWJmOig9Mw\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/course",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"course"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "course_details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDMxNDc3LCJleHAiOjE2NDY4MDc0NzcsIm5iZiI6MTYzOTAzMTQ3NywianRpIjoiNGw1S2NIQ3U3aUUzczF1dCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.be5ta1Pxj4Jqk0OZ0vAwVTNbgMNU7gxMFiWJmOig9Mw\",\"course_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/course_details",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"course_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "course_list_by_category",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDMxNDc3LCJleHAiOjE2NDY4MDc0NzcsIm5iZiI6MTYzOTAzMTQ3NywianRpIjoiNGw1S2NIQ3U3aUUzczF1dCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.be5ta1Pxj4Jqk0OZ0vAwVTNbgMNU7gxMFiWJmOig9Mw\",\"category_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/course_list_by_category",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"course_list_by_category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "live_classes_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDMxNDc3LCJleHAiOjE2NDY4MDc0NzcsIm5iZiI6MTYzOTAzMTQ3NywianRpIjoiNGw1S2NIQ3U3aUUzczF1dCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.be5ta1Pxj4Jqk0OZ0vAwVTNbgMNU7gxMFiWJmOig9Mw\",\"course_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/live_classes_list",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"live_classes_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transaction_history",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDMxNDc3LCJleHAiOjE2NDY4MDc0NzcsIm5iZiI6MTYzOTAzMTQ3NywianRpIjoiNGw1S2NIQ3U3aUUzczF1dCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.be5ta1Pxj4Jqk0OZ0vAwVTNbgMNU7gxMFiWJmOig9Mw\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/transaction_history",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"transaction_history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create_payment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "subject_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDMxNDc3LCJleHAiOjE2NDY4MDc0NzcsIm5iZiI6MTYzOTAzMTQ3NywianRpIjoiNGw1S2NIQ3U3aUUzczF1dCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.be5ta1Pxj4Jqk0OZ0vAwVTNbgMNU7gxMFiWJmOig9Mw\",\"course_id\":1,\"type\":\"monthly\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/subject_list",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"subject_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send_otp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mobile\":\"123456789\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/send_otp",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"send_otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "verify_otp",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone\":\"123456789\",\"otp\":\"1234\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/verify_otp",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"verify_otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "chats",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDMxNDc3LCJleHAiOjE2NDY4MDc0NzcsIm5iZiI6MTYzOTAzMTQ3NywianRpIjoiNGw1S2NIQ3U3aUUzczF1dCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.be5ta1Pxj4Jqk0OZ0vAwVTNbgMNU7gxMFiWJmOig9Mw\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/chats",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"chats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "submit_chat",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbmF5YWVkdWNhdGlvbi5hcHBtYW50cmEubGl2ZVwvYXBpXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjM5MDMxNDc3LCJleHAiOjE2NDY4MDc0NzcsIm5iZiI6MTYzOTAzMTQ3NywianRpIjoiNGw1S2NIQ3U3aUUzczF1dCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.be5ta1Pxj4Jqk0OZ0vAwVTNbgMNU7gxMFiWJmOig9Mw",
+							"type": "text"
+						},
+						{
+							"key": "text",
+							"type": "file",
+							"src": "/C:/Users/Windows 10/Downloads/SampleVideo_720x480_2mb (1).mp4"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://nayaeducation.appmantra.live/api/api/submit_chat",
+					"protocol": "https",
+					"host": [
+						"nayaeducation",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"api",
+						"api",
+						"submit_chat"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

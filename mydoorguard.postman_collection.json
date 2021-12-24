@@ -1,0 +1,670 @@
+{
+	"info": {
+		"_postman_id": "5e51d73f-0a53-47cd-bed6-f4ea8d88d638",
+		"name": "mydoorguard",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "login_password",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/guardsapi/api/login_password",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"guardsapi",
+						"api",
+						"login_password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL2d1YXJkYXBpXC9hcGlcL2xvZ2luX3Bhc3N3b3JkIiwiaWF0IjoxNjMxMTcxNTEwLCJleHAiOjE2Mzg5NDc1MTAsIm5iZiI6MTYzMTE3MTUxMCwianRpIjoibDJoSkNmNmJoejlWaU1vNCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.MgL6Fda6q_lrSufkq_rnnwscG_DeLmaF90V8GrjWM2I\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL2d1YXJkYXBpXC9hcGlcL2xvZ2luX3Bhc3N3b3JkIiwiaWF0IjoxNjMxMTcxNTEwLCJleHAiOjE2Mzg5NDc1MTAsIm5iZiI6MTYzMTE3MTUxMCwianRpIjoibDJoSkNmNmJoejlWaU1vNCIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.MgL6Fda6q_lrSufkq_rnnwscG_DeLmaF90V8GrjWM2I\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/guardapi/api/update_profile",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"update_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "residence_details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL2d1YXJkYXBpXC9hcGlcL2xvZ2luX3Bhc3N3b3JkIiwiaWF0IjoxNjMxMTcxODEwLCJleHAiOjE2Mzg5NDc4MTAsIm5iZiI6MTYzMTE3MTgxMCwianRpIjoiVlpEbEtQQUU0TlVZbENPZiIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.u2R-wiRCfUbUo0Y20AYeQHn56wYZ1eS2HZNriBh8cWQ\",\"block_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/guardapi/api/residence_details",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"residence_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_blocks_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL2d1YXJkYXBpXC9hcGlcL2xvZ2luX3Bhc3N3b3JkIiwiaWF0IjoxNjMxMTcxODEwLCJleHAiOjE2Mzg5NDc4MTAsIm5iZiI6MTYzMTE3MTgxMCwianRpIjoiVlpEbEtQQUU0TlVZbENPZiIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.u2R-wiRCfUbUo0Y20AYeQHn56wYZ1eS2HZNriBh8cWQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/guardapi/api/get_blocks_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"get_blocks_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "notification_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC9ndWFyZGFwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYzMzQxNTg2OCwiZXhwIjoxNjQxMTkxODY4LCJuYmYiOjE2MzM0MTU4NjgsImp0aSI6Imhpc2tjc2pFSHo5OXIxZ1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6A3uvNLNtZ1rkrOApKXy2oIuSJsueZ_1IKHkwfNRkFg\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/guardapi/api/notification_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"notification_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "service_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL2d1YXJkYXBpXC9hcGlcL2xvZ2luX3Bhc3N3b3JkIiwiaWF0IjoxNjMxMTcxODEwLCJleHAiOjE2Mzg5NDc4MTAsIm5iZiI6MTYzMTE3MTgxMCwianRpIjoiVlpEbEtQQUU0TlVZbENPZiIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.u2R-wiRCfUbUo0Y20AYeQHn56wYZ1eS2HZNriBh8cWQ\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/guardapi/api/service_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"service_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "service_details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmRldmNsdWIuY28uaW5cL2d1YXJkYXBpXC9hcGlcL2xvZ2luX3Bhc3N3b3JkIiwiaWF0IjoxNjMxMTcxODEwLCJleHAiOjE2Mzg5NDc4MTAsIm5iZiI6MTYzMTE3MTgxMCwianRpIjoiVlpEbEtQQUU0TlVZbENPZiIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.u2R-wiRCfUbUo0Y20AYeQHn56wYZ1eS2HZNriBh8cWQ\",\"service_id\":\"3\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.devclub.co.in/guardapi/api/service_details",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"devclub",
+						"co",
+						"in"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"service_details"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_flats_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "verified_entry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC9ndWFyZGFwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYzMzQxNTg2OCwiZXhwIjoxNjQxMTkxODY4LCJuYmYiOjE2MzM0MTU4NjgsImp0aSI6Imhpc2tjc2pFSHo5OXIxZ1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6A3uvNLNtZ1rkrOApKXy2oIuSJsueZ_1IKHkwfNRkFg\",\"otp\":\"123456\",\"type\":\"verify\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/guardapi/api/verified_entry",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"verified_entry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "visitors_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC9ndWFyZGFwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYzMzQxNTg2OCwiZXhwIjoxNjQxMTkxODY4LCJuYmYiOjE2MzM0MTU4NjgsImp0aSI6Imhpc2tjc2pFSHo5OXIxZ1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6A3uvNLNtZ1rkrOApKXy2oIuSJsueZ_1IKHkwfNRkFg\",\"search\":\"satya\",\"page\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/guardapi/api/visitors_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"visitors_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_multivisitor_entry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC9ndWFyZGFwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYzMzQxNTg2OCwiZXhwIjoxNjQxMTkxODY4LCJuYmYiOjE2MzM0MTU4NjgsImp0aSI6Imhpc2tjc2pFSHo5OXIxZ1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6A3uvNLNtZ1rkrOApKXy2oIuSJsueZ_1IKHkwfNRkFg",
+							"type": "text"
+						},
+						{
+							"key": "contactName",
+							"value": "sdasdsad",
+							"type": "text"
+						},
+						{
+							"key": "contactNumber",
+							"value": "11111111",
+							"type": "text"
+						},
+						{
+							"key": "jsonData",
+							"value": "[{\"blockId\":\"1\",\"flat_no\":\"B-0001\"},{\"blockId\":\"1\",\"flat_no\":\"C-1000\"},{\"blockId\":\"1\",\"flat_no\":\"1579\"}]",
+							"type": "text"
+						},
+						{
+							"key": "user_image",
+							"type": "file",
+							"src": "/C:/Users/anish/Downloads/BEBTECH.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/guardapi/api/add_multivisitor_entry",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"add_multivisitor_entry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all_visitors_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC9ndWFyZGFwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYzMzQxNTg2OCwiZXhwIjoxNjQxMTkxODY4LCJuYmYiOjE2MzM0MTU4NjgsImp0aSI6Imhpc2tjc2pFSHo5OXIxZ1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6A3uvNLNtZ1rkrOApKXy2oIuSJsueZ_1IKHkwfNRkFg\",\"page\":\"2\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/guardapi/api/all_visitors_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"all_visitors_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_chats",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC9ndWFyZGFwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYzMzQxNTg2OCwiZXhwIjoxNjQxMTkxODY4LCJuYmYiOjE2MzM0MTU4NjgsImp0aSI6Imhpc2tjc2pFSHo5OXIxZ1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6A3uvNLNtZ1rkrOApKXy2oIuSJsueZ_1IKHkwfNRkFg\",\"page\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/guardapi/api/get_chats",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"get_chats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_guards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "guard_banners",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC9ndWFyZGFwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYzMzQxNTg2OCwiZXhwIjoxNjQxMTkxODY4LCJuYmYiOjE2MzM0MTU4NjgsImp0aSI6Imhpc2tjc2pFSHo5OXIxZ1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6A3uvNLNtZ1rkrOApKXy2oIuSJsueZ_1IKHkwfNRkFg\",\"page\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/guardapi/api/guard_banners",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"guard_banners"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "exit_visitor",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC9ndWFyZGFwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYzMzQxNTg2OCwiZXhwIjoxNjQxMTkxODY4LCJuYmYiOjE2MzM0MTU4NjgsImp0aSI6Imhpc2tjc2pFSHo5OXIxZ1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6A3uvNLNtZ1rkrOApKXy2oIuSJsueZ_1IKHkwfNRkFg\",\"page\":\"\",\"visitor_id\":\"1\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/guardapi/api/exit_visitor",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"exit_visitor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "emergency_nos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC9ndWFyZGFwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYzMzQxNTg2OCwiZXhwIjoxNjQxMTkxODY4LCJuYmYiOjE2MzM0MTU4NjgsImp0aSI6Imhpc2tjc2pFSHo5OXIxZ1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6A3uvNLNtZ1rkrOApKXy2oIuSJsueZ_1IKHkwfNRkFg\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/usersapi/api/emergency_nos",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"usersapi",
+						"api",
+						"emergency_nos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sub_category_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC9ndWFyZGFwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYzMzQxNTg2OCwiZXhwIjoxNjQxMTkxODY4LCJuYmYiOjE2MzM0MTU4NjgsImp0aSI6Imhpc2tjc2pFSHo5OXIxZ1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6A3uvNLNtZ1rkrOApKXy2oIuSJsueZ_1IKHkwfNRkFg\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/guardapi/api/sub_category_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"sub_category_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "staff_list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC9ndWFyZGFwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYzMzQxNTg2OCwiZXhwIjoxNjQxMTkxODY4LCJuYmYiOjE2MzM0MTU4NjgsImp0aSI6Imhpc2tjc2pFSHo5OXIxZ1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6A3uvNLNtZ1rkrOApKXy2oIuSJsueZ_1IKHkwfNRkFg\",\"page\":1,\"search\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/guardapi/api/staff_list",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"staff_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "in_out_staff",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXlkb29yLmFwcG1hbnRyYS5saXZlXC9ndWFyZGFwaVwvYXBpXC9sb2dpbl9wYXNzd29yZCIsImlhdCI6MTYzMzQxNTg2OCwiZXhwIjoxNjQxMTkxODY4LCJuYmYiOjE2MzM0MTU4NjgsImp0aSI6Imhpc2tjc2pFSHo5OXIxZ1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6A3uvNLNtZ1rkrOApKXy2oIuSJsueZ_1IKHkwfNRkFg\",\"staff_id\":\"1\",\"type\":\"OUT\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mydoor.appmantra.live/guardapi/api/in_out_staff",
+					"protocol": "https",
+					"host": [
+						"mydoor",
+						"appmantra",
+						"live"
+					],
+					"path": [
+						"guardapi",
+						"api",
+						"in_out_staff"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
